@@ -18,8 +18,8 @@ Upload data → Train model → Get results.
 
 ## Setup
 ```bash
-git clone https://github.com/sakib-12345/No-Code-ML-WEBapp.git
-cd 
+git clone https://github.com/sakib-12345/ML-comperision-WEBapp.git
+cd ML-comperision-WEBapp
 pip install -r requirements.txt
 streamlit run app.py
 ```
