@@ -26,6 +26,33 @@ st.set_page_config(page_title="ML Classifier Comparison")
 st.title("Automated ML Classifier Comparison App")
 st.write("by Sakib Hossain Tahmid")
 
+
+st.markdown(
+    """
+    <style>
+    .round-img {
+        width: 40px;
+        height: 35px;
+        border-radius: 50%;
+        object-fit: cover;
+        transition: 0.2s;
+    }
+    .round-img:hover {
+        transform: scale(1.1);
+    }
+    </style>
+    <span style="color:blue;">>>></span>
+     <span style="color:orange;">Try our No-Code ML App .Build custom ML models without coding and Download it!</span>
+    <a href="https://nocodemlsakib.streamlit.app/" target="_blank">
+        <img src="https://github.com/sakib-12345/No-Code-ML-WEBapp/blob/main/my_icon.png?raw=true" class="round-img">
+    </a>  
+    
+    """,
+    unsafe_allow_html=True
+)
+
+
+
 uploaded_file = st.file_uploader("Choose a CSV file", type="csv")
 if uploaded_file is not None:
     try:
@@ -298,5 +325,6 @@ st.markdown(
             f'<div style="text-align: center; color: grey;">&copy; 2025 Sakib Hossain Tahmid. All Rights Reserved.</div>',
             unsafe_allow_html=True
            ) 
+
 
 
