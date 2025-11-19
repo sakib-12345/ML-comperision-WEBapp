@@ -17,10 +17,20 @@ Upload data → Train model → Get results.
 - Frontend: Streamlit  
 
 ## Setup
+#### 1.Clone
 ```bash
 git clone https://github.com/sakib-12345/ML-comperision-WEBapp.git
+```
+#### 2.Open folder
+```bash
 cd ML-comperision-WEBapp
+```
+#### 3.Install Libraries
+```bash
 pip install -r requirements.txt
+```
+#### 4.Run it (Locally)
+```bash
 streamlit run app.py
 ```
 ## License
