@@ -1,6 +1,10 @@
 # No Code ML comparision Project
 Author: Sakib Hossain Tahmid
 * Try my App [Click Here](https://ml-app-sakib.streamlit.app/)
+<p align="center">
+  <img src="https://github.com/sakib-12345/ML-comperision-WEBapp/blob/main/web_icon.png" alt="Screenshot" width="250">
+</p>
+
 ## Overview
 A **No Code Machine Learning comparision webapp** built with Streamlit.  
 Upload data → Train model → Get results.  
