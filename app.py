@@ -21,7 +21,7 @@ hide_st_style = """
             """
 st.markdown(hide_st_style, unsafe_allow_html=True)
 
-st.set_page_config(page_title="ML Classifier Comparison")
+st.set_page_config(page_title="ML Classifier Comparison",page_icon="web_icon.png")
 
 st.title("Automated ML Classifier Comparison App")
 st.write("by Sakib Hossain Tahmid")
@@ -325,6 +325,7 @@ st.markdown(
             f'<div style="text-align: center; color: grey;">&copy; 2025 Sakib Hossain Tahmid. All Rights Reserved.</div>',
             unsafe_allow_html=True
            ) 
+
 
 
 
