@@ -32,7 +32,7 @@ st.markdown(
     <style>
     .round-img {
         width: 40px;
-        height: 35px;
+        height: 40px;
         border-radius: 50%;
         object-fit: cover;
         transition: 0.2s;
@@ -42,7 +42,7 @@ st.markdown(
     }
     </style>
     <span style="color:blue;">>>></span>
-     <span style="color:orange;">Try our No-Code ML App .Build custom ML models without coding and Download it!</span>
+     <span style="color:orange;">Wanna download custom models?Click Here</span>
     <a href="https://nocodemlsakib.streamlit.app/" target="_blank">
         <img src="https://github.com/sakib-12345/No-Code-ML-WEBapp/blob/main/my_icon.png?raw=true" class="round-img">
     </a>  
@@ -325,6 +325,7 @@ st.markdown(
             f'<div style="text-align: center; color: grey;">&copy; 2025 Sakib Hossain Tahmid. All Rights Reserved.</div>',
             unsafe_allow_html=True
            ) 
+
 
 
 
