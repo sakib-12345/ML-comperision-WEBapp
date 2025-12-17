@@ -33,7 +33,7 @@ st.markdown(
     .round-img {
         width: 40px;
         height: 40px;
-        border-radius: 50%;
+        border-radius: 100%;
         object-fit: cover;
         transition: 0.2s;
     }
@@ -325,6 +325,7 @@ st.markdown(
             f'<div style="text-align: center; color: grey;">&copy; 2025 Sakib Hossain Tahmid. All Rights Reserved.</div>',
             unsafe_allow_html=True
            ) 
+
 
 
 
